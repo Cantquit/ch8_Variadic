@@ -8,5 +8,14 @@
 
 import Foundation
 
-println("Hello, World!")
+func addVari(numbers: Int...) {
+    var result = 0
+    for eachNum in numbers {
+        result += eachNum
+    }
+    println("Sum total of numbers: \(result)")
+}
+
+addVari(4,3)
+
 
