@@ -17,5 +17,9 @@ func addVari(numbers: Int...) {
 }
 
 addVari(4,3)
+addVari(5,3,2)
+
+// Version 1.2
+addVari()
 
 
